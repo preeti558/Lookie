@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+
+        <item android:id="@+id/nav_home"
+            android:icon="@drawable/home"
+            android:title="Home"/>
+
+        <item android:id="@+id/newsfeed"
+            android:icon="@drawable/newsfeed"
+            android:title="Newsfeed"/>
+
+        <item android:id="@+id/browse"
+            android:icon="@drawable/browse"
+            android:title="Browse"/>
+
+        <item android:id="@+id/search"
+            android:icon="@drawable/search"
+            android:title="Search"/>
+
+        <item android:id="@+id/myAccount"
+            android:icon="@drawable/account"
+            android:title="My Account"/>
+
+        <item android:id="@+id/wishlists"
+            android:icon="@drawable/wishlists"
+            android:title="Wishlists"/>
+
+        <item android:id="@+id/orderHistory"
+            android:icon="@drawable/history"
+            android:title="Order History"/>
+
+        <item android:id="@+id/aboutUs"
+            android:icon="@drawable/aboutus"
+            android:title="About Us"/>
+
+        <item android:id="@+id/feedback"
+            android:icon="@drawable/feedback"
+            android:title="Feedback"/>
+
+
+    </group>
+
+</menu>
